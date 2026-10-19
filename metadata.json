@@ -1,0 +1,6 @@
+{
+  "name": "Sistem Informasi Manajemen Supplier — PT Supplier",
+  "description": "Sistem informasi manajemen supplier, katalog produk, persediaan barang, purchase order, dan laporan operasional terintegrasi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

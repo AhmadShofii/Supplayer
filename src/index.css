@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-primary: #23374D;
+    --color-secondary: #526D82;
+    --color-accent: #8FA99B;
+    --color-bg: #F5F6F4;
+    --color-surface: #FFFFFF;
+    --color-text: #27313B;
+    --color-danger: #B45C5C;
+  }
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+  }
+}
